@@ -1,6 +1,13 @@
 # reversi
 会員登録付きリバーシWebアプリ
 
+## 環境構築
+
+1. `docker compose up -d` でコンテナ立ち上げ
+2. `docker compose exec web bash` でコンテナ内入る
+3. `rails db:create`
+4. http://localhost:4040 にアクセス
+
 ## 開発作業手順
 
 1. mainブランチから`feature/〇〇`でブランチを切る
