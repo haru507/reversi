@@ -3,10 +3,12 @@
 
 ## 環境構築
 
-1. `docker compose up -d` でコンテナ立ち上げ
-2. `docker compose exec web bash` でコンテナ内入る
-3. `rails db:create`
-4. http://localhost:4040 にアクセス
+1. `cp .env.sample .env`
+2. envの内容を入力する(Discordにある)
+3. `docker compose up -d` でコンテナ立ち上げ
+4. `docker compose exec web bash` でコンテナ内入る
+5. `rails db:create`
+6. http://localhost:4040 にアクセス
 
 ## 開発作業手順
 
