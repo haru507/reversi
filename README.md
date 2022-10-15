@@ -21,6 +21,24 @@ docker-compose run web rspec
 4. 完了したらプルリクを出す
    1. 他2人が確認
    2. 問題なければmainブランチにマージ
+
+エラーサンプル
+```
+      ======================================
+      ======= 🚧 Rubocop Checking 🚧 =======
+      ======================================
+Inspecting 1 file
+W
+
+Offenses:
+
+app/channels/application_cable/connection.rb:2:1: C: [Correctable] Layout/IndentationWidth: Use 2 (not 8) spaces for indentation.
+        class Connection < ActionCable::Connection::Base
+^^^^^^^^
+app/channels/application_cable/connection.rb:3:3: W: [Correctable] Layout/EndAlignment: end at 3, 2 is not aligned with class at 2, 8.
+  end
+  ^^^
+```
    
 ### 開発関係決め事
 1. コミットメッセージは英語でも日本語でも好きな方で(今回統一しない)
