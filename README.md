@@ -2,14 +2,13 @@
 
 1. `cp .env.sample .env`
 2. envの内容を入力する(Discordにある)
-3. `docker compose up -d` でコンテナ立ち上げ
-4. `docker compose exec web bash` でコンテナ内入る
-5. `rails db:create`
-6. http://localhost:4040 にアクセス
+3. `make up` でコンテナ立ち上げ
+4. `make db create`
+5. http://localhost:4040 にアクセス
 
 ## 単体テスト
 ```shell
-docker-compose run web rspec
+make respec
 ```
 
 ## 開発作業手順
