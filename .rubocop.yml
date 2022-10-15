@@ -1,0 +1,21 @@
+AllCops:
+  NewCops: enable
+  Exclude:
+    - Gemfile
+  SuggestExtensions: false
+
+# allow not exist comment/documentation
+Style/Documentation:
+  Enabled: false
+
+# allow japanese commnets
+Style/AsciiComments:
+  Enabled: false
+
+# allow 120 letters in row
+Layout/LineLength:
+  Max: 120
+
+# escape freeze error
+Style/FrozenStringLiteralComment:
+  Enabled: false
