@@ -16,7 +16,9 @@ docker-compose run web rspec
 
 1. mainブランチから`feature/〇〇`でブランチを切る
 2. 実装(単体テスト含)
-3. プルリクを出す
+3. 良きタイミングでpush
+   1. commitでrubocopエラーが出たら修正
+4. 完了したらプルリクを出す
    1. 他2人が確認
    2. 問題なければmainブランチにマージ
    
