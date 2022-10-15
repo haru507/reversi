@@ -28,6 +28,23 @@ services:
     depends_on:
       - db
     env_file: .env
+  # localstack:
+  #   image: localstack/localstack:latest
+  #   ports:
+  #     - '4566:4566'
+  #     - '8000:8000'
+  #   volumes:
+  #     - /var/run/docker.sock:/var/run/docker.sock
+  #   environment:
+  #     SERVICES: s3
+  #     AWS_ACCESS_KEY_ID: test
+  #     AWS_SECRET_ACCESS_KEY: test
+  #     AWS_DEFAULT_REGION: ap-northeast-1
+  #     DATA_DIR: /tmp/localstack/data
+  #     DISABLE_CORS_CHECKS: 1
+  #     AWS_S3_BUCKET_NAME: test-bucket
+  #     AWS_S3_REGION: ap-northeast-1
+  #     AWS_S3_ENDPOINT: http://localhost:4566
 
 volumes:
   mysql_data:
