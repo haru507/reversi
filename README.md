@@ -7,6 +7,11 @@
 5. `rails db:create`
 6. http://localhost:4040 にアクセス
 
+## 単体テスト
+```shell
+docker-compose run web rspec
+```
+
 ## 開発作業手順
 
 1. mainブランチから`feature/〇〇`でブランチを切る
