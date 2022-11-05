@@ -3,7 +3,7 @@ up:
 build:
 	docker compose build
 web:
-  docker compose exec web bash
+  docker compose exec api bash
 db:
   docker compose exec db bash
 db create:
