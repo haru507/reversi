@@ -9,8 +9,8 @@ RUN apt-get update && apt-get install -y \
 
 WORKDIR /myapp
 
-COPY ./api/Gemfile /myapp/Gemfile
-COPY ./api/Gemfile.lock /myapp/Gemfile.lock
+COPY Gemfile /myapp/Gemfile
+COPY Gemfile.lock /myapp/Gemfile.lock
 
 RUN bundle install
 

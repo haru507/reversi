@@ -16,35 +16,18 @@ services:
       - MYSQL_PASSWORD=${MYSQL_PASSWORD}
       - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
 
-  api:
+  web:
     build:
       context: .
       dockerfile: ./docker/rails/Dockerfile
     command: bash -c "rm -f tmp/pids/server.pid && bundle exec rails s -p 4040 -b '0.0.0.0'"
     volumes:
-      - ./api:/myapp
+      - .:/myapp
     ports:
       - "4040:4040"
     depends_on:
       - db
     env_file: .env
-
-  front:
-    build:
-      context: .
-      dockerfile: ./docker/node/Dockerfile
-    command: yarn dev --host
-    volumes:
-      - ./front:/usr/src/app
-      - node_modules:/usr/src/app/node_modules
-    environment:
-      - HOST=0.0.0.0
-      - CHOKIDAR_USEPOLLING=true
-    ports:
-      - "5137:5137"
-    # tty: true
-    depends_on:
-      - api
 
 volumes:
   mysql_data:
