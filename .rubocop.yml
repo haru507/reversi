@@ -2,6 +2,11 @@ AllCops:
   NewCops: enable
   Exclude:
     - Gemfile
+    - "vendor/**/*"
+    - "db/**/*"
+    - "tmp/**/*"
+    - "bin/**/*"
+    - "node_modules/**/*"
   SuggestExtensions: false
 
 # allow not exist comment/documentation
