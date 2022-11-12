@@ -12,3 +12,5 @@ db migrate:
   docker compose exec web bin/rails db:migrate
 respec:
   docker compose exec web respec
+webpack install:
+  docker-compose run web rails webpacker:install

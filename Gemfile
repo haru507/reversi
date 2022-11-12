@@ -45,6 +45,9 @@ gem 'bootsnap', require: false
 # Use React.js
 gem 'react-rails'
 
+# Use webpacker
+gem 'webpacker'
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
