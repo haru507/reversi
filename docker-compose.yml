@@ -17,10 +17,13 @@ services:
       - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
 
   web:
+    &web
     build:
       context: .
       dockerfile: ./docker/rails/Dockerfile
     command: bash -c "rm -f tmp/pids/server.pid && bundle exec rails s -p 4040 -b '0.0.0.0'"
+    environment:
+      WEBPACKER_DEV_SERVER_HOST: webpacker
     volumes:
       - .:/myapp
     ports:
@@ -28,6 +31,15 @@ services:
     depends_on:
       - db
     env_file: .env
+  webpacker:
+    <<: *web
+    command: bundle exec bin/webpack-dev-server
+    depends_on: []
+    environment:
+      - WEBPACKER_DEV_SERVER_HMR="true"
+      - WEBPACKER_DEV_SERVER_HOST=0.0.0.0
+    ports:
+      - "3035:3035"
 
 volumes:
   mysql_data:
