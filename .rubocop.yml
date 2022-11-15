@@ -1,4 +1,5 @@
 AllCops:
+  DisabledByDefault: true
   NewCops: enable
   Exclude:
     - Gemfile
@@ -24,3 +25,15 @@ Layout/LineLength:
 # escape freeze error
 Style/FrozenStringLiteralComment:
   Enabled: false
+
+Bundler:
+  Enabled: true
+
+Gemspec:
+  Enabled: true
+
+Lint:
+  Enabled: true
+
+Security:
+  Enabled: true
