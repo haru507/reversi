@@ -3,12 +3,12 @@ up:
 build:
 	docker compose build
 web:
-  docker compose exec web bash
+	docker compose exec web bash
 db:
-  docker compose exec db bash
+	docker compose exec db bash
 db create:
-  docker compose exec web bin/rails db:create
+	docker compose exec web bin/rails db:create
 db migrate:
-  docker compose exec web bin/rails db:migrate
+	docker compose exec web bin/rails db:migrate
 respec:
-  docker compose exec web respec
+	docker compose exec web respec
