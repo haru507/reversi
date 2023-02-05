@@ -1,0 +1,10 @@
+.menu-container {
+    display: flex;
+}
+
+.menu-item {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-decoration: underline;
+}
