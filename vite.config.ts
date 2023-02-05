@@ -11,4 +11,9 @@ export default defineConfig({
     FullReload(["config/routes.rb", "app/views/**/*"], { delay: 100 }),
     tsconfigPaths(),
   ],
+  resolve: {
+    alias: {
+      "@": "frontend/src",
+    },
+  },
 });

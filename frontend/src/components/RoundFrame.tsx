@@ -1,4 +1,4 @@
-import roundFrame from '@/assets/css/components/frame.module.css';
+import roundFrame from "@/assets/css/components/frame.module.css";
 
 interface Props {
   className: string;
@@ -8,10 +8,10 @@ interface Props {
 const RoundFrame = (props: Props) => {
   return (
     <>
-      {props.className === 'round-frame_double' ? (
-        <div className={roundFrame['round-frame_double']}>{props.children}</div>
+      {props.className === "round-frame_double" ? (
+        <div className={roundFrame["round-frame_double"]}>{props.children}</div>
       ) : (
-        <div className={roundFrame['round-frame_single']}>{props.children}</div>
+        <div className={roundFrame["round-frame_single"]}>{props.children}</div>
       )}
     </>
   );
