@@ -1,0 +1,305 @@
+{
+  "src/assets/index.css": {
+    "file": "assets/index.6a241165.css",
+    "src": "src/assets/index.css",
+    "isEntry": true
+  },
+  "src/assets/css/components/input.module.css": {
+    "file": "assets/input.4ed993c7.js",
+    "src": "src/assets/css/components/input.module.css",
+    "isEntry": true,
+    "css": [
+      "assets/input.9c6bd059.css"
+    ]
+  },
+  "src/assets/css/components/button.module.css": {
+    "file": "assets/button.4ed993c7.js",
+    "src": "src/assets/css/components/button.module.css",
+    "isEntry": true,
+    "css": [
+      "assets/Button.b22bb1d2.css"
+    ]
+  },
+  "style.css": {
+    "file": "assets/style.739c777f.css",
+    "src": "style.css"
+  },
+  "src/assets/css/components/menu.module.css": {
+    "file": "assets/menu.4ed993c7.js",
+    "src": "src/assets/css/components/menu.module.css",
+    "isEntry": true,
+    "css": [
+      "assets/menu.7207416a.css"
+    ]
+  },
+  "src/assets/css/components/frame.module.css": {
+    "file": "assets/frame.4ed993c7.js",
+    "src": "src/assets/css/components/frame.module.css",
+    "isEntry": true,
+    "css": [
+      "assets/RoundFrame.2d7acfd6.css"
+    ]
+  },
+  "src/components/IntroTextInput.tsx": {
+    "file": "assets/IntroTextInput.76c93b9a.js",
+    "src": "src/components/IntroTextInput.tsx",
+    "isEntry": true,
+    "imports": [
+      "_jsx-runtime.06adccda.js",
+      "_input.d413fb14.js",
+      "_jsx-runtime.84cb2727.js"
+    ]
+  },
+  "src/components/Menu.tsx": {
+    "file": "assets/Menu.03a92878.js",
+    "src": "src/components/Menu.tsx",
+    "isEntry": true,
+    "imports": [
+      "_jsx-runtime.06adccda.js",
+      "src/assets/message.ts",
+      "_menu.c90c5423.js",
+      "_jsx-runtime.84cb2727.js"
+    ]
+  },
+  "src/components/index.ts": {
+    "file": "assets/index.89196dc7.js",
+    "src": "src/components/index.ts",
+    "isEntry": true,
+    "imports": [
+      "src/components/Button.tsx",
+      "src/components/CornerFrame.tsx",
+      "src/components/Form.tsx",
+      "src/components/Menu.tsx",
+      "src/components/RoundFrame.tsx",
+      "src/components/TextInput.tsx",
+      "src/components/IntroTextInput.tsx",
+      "_jsx-runtime.06adccda.js",
+      "_jsx-runtime.84cb2727.js",
+      "src/assets/message.ts",
+      "_menu.c90c5423.js",
+      "_input.d413fb14.js"
+    ]
+  },
+  "_jsx-runtime.06adccda.js": {
+    "file": "assets/jsx-runtime.06adccda.js",
+    "imports": [
+      "_jsx-runtime.84cb2727.js"
+    ]
+  },
+  "src/components/TextInput.tsx": {
+    "file": "assets/TextInput.db616ede.js",
+    "src": "src/components/TextInput.tsx",
+    "isEntry": true,
+    "imports": [
+      "_jsx-runtime.06adccda.js",
+      "_input.d413fb14.js",
+      "_jsx-runtime.84cb2727.js"
+    ]
+  },
+  "src/components/CornerFrame.tsx": {
+    "file": "assets/CornerFrame.e72f969c.js",
+    "src": "src/components/CornerFrame.tsx",
+    "isEntry": true,
+    "imports": [
+      "_jsx-runtime.84cb2727.js"
+    ]
+  },
+  "src/pages/ForgetPassword.tsx": {
+    "file": "assets/ForgetPassword.c67418e2.js",
+    "src": "src/pages/ForgetPassword.tsx",
+    "isEntry": true,
+    "imports": [
+      "_jsx-runtime.06adccda.js",
+      "_jsx-runtime.84cb2727.js",
+      "_client.423fa260.js",
+      "src/assets/message.ts",
+      "src/components/Button.tsx",
+      "_menu.c90c5423.js",
+      "src/components/RoundFrame.tsx",
+      "src/components/TextInput.tsx",
+      "_input.d413fb14.js",
+      "_style.ec858430.js"
+    ]
+  },
+  "src/components/Form.tsx": {
+    "file": "assets/Form.0dfdf43c.js",
+    "src": "src/components/Form.tsx",
+    "isEntry": true,
+    "imports": [
+      "_jsx-runtime.06adccda.js",
+      "_jsx-runtime.84cb2727.js"
+    ]
+  },
+  "src/assets/message.ts": {
+    "file": "assets/message.2e8ba865.js",
+    "src": "src/assets/message.ts",
+    "isEntry": true
+  },
+  "src/pages/Introduction.tsx": {
+    "file": "assets/Introduction.d041cea9.js",
+    "src": "src/pages/Introduction.tsx",
+    "isEntry": true,
+    "imports": [
+      "_jsx-runtime.06adccda.js",
+      "_jsx-runtime.84cb2727.js",
+      "_client.423fa260.js",
+      "src/components/Button.tsx",
+      "src/assets/message.ts",
+      "_menu.c90c5423.js",
+      "src/components/RoundFrame.tsx",
+      "_input.d413fb14.js",
+      "src/components/IntroTextInput.tsx",
+      "_style.ec858430.js"
+    ]
+  },
+  "src/assets/css/components/form.module.css": {
+    "file": "assets/form.4ed993c7.js",
+    "src": "src/assets/css/components/form.module.css",
+    "isEntry": true
+  },
+  "src/vite-env.d.ts": {
+    "file": "assets/vite-env.4ed993c7.js",
+    "src": "src/vite-env.d.ts",
+    "isEntry": true
+  },
+  "src/pages/SignIn.tsx": {
+    "file": "assets/SignIn.bc7ece23.js",
+    "src": "src/pages/SignIn.tsx",
+    "isEntry": true,
+    "imports": [
+      "_jsx-runtime.06adccda.js",
+      "_jsx-runtime.84cb2727.js",
+      "_client.423fa260.js",
+      "src/assets/message.ts",
+      "src/components/Button.tsx",
+      "src/components/Form.tsx",
+      "src/components/Menu.tsx",
+      "src/components/RoundFrame.tsx",
+      "src/components/TextInput.tsx",
+      "_input.d413fb14.js",
+      "_style.ec858430.js",
+      "_menu.c90c5423.js"
+    ]
+  },
+  "src/pages/Reversi.tsx": {
+    "file": "assets/Reversi.3184b41f.js",
+    "src": "src/pages/Reversi.tsx",
+    "isEntry": true,
+    "imports": [
+      "_jsx-runtime.06adccda.js",
+      "_jsx-runtime.84cb2727.js",
+      "_client.423fa260.js"
+    ]
+  },
+  "src/pages/Password.tsx": {
+    "file": "assets/Password.3b0e1cf5.js",
+    "src": "src/pages/Password.tsx",
+    "isEntry": true,
+    "imports": [
+      "_jsx-runtime.06adccda.js",
+      "_jsx-runtime.84cb2727.js",
+      "_client.423fa260.js",
+      "src/assets/message.ts",
+      "src/components/Button.tsx",
+      "_menu.c90c5423.js",
+      "src/components/RoundFrame.tsx",
+      "src/components/TextInput.tsx",
+      "_input.d413fb14.js",
+      "_style.ec858430.js"
+    ]
+  },
+  "src/pages/SignUp.tsx": {
+    "file": "assets/SignUp.c78ec9f2.js",
+    "src": "src/pages/SignUp.tsx",
+    "isEntry": true,
+    "imports": [
+      "_jsx-runtime.06adccda.js",
+      "_jsx-runtime.84cb2727.js",
+      "_client.423fa260.js",
+      "src/assets/message.ts",
+      "src/components/Button.tsx",
+      "src/components/Form.tsx",
+      "src/components/Menu.tsx",
+      "src/components/RoundFrame.tsx",
+      "src/components/TextInput.tsx",
+      "_input.d413fb14.js",
+      "_style.ec858430.js",
+      "_menu.c90c5423.js"
+    ]
+  },
+  "src/components/RoundFrame.tsx": {
+    "file": "assets/RoundFrame.37ddb9ab.js",
+    "src": "src/components/RoundFrame.tsx",
+    "isEntry": true,
+    "imports": [
+      "_jsx-runtime.06adccda.js",
+      "_jsx-runtime.84cb2727.js"
+    ],
+    "css": [
+      "assets/RoundFrame.2d7acfd6.css"
+    ]
+  },
+  "src/assets/css/style.module.css": {
+    "file": "assets/style.4ed993c7.js",
+    "src": "src/assets/css/style.module.css",
+    "isEntry": true,
+    "css": [
+      "assets/style.739c777f.css"
+    ]
+  },
+  "src/components/Button.tsx": {
+    "file": "assets/Button.8deecece.js",
+    "src": "src/components/Button.tsx",
+    "isEntry": true,
+    "imports": [
+      "_jsx-runtime.06adccda.js",
+      "_jsx-runtime.84cb2727.js"
+    ],
+    "css": [
+      "assets/Button.b22bb1d2.css"
+    ]
+  },
+  "_input.d413fb14.js": {
+    "file": "assets/input.d413fb14.js",
+    "css": [
+      "assets/input.9c6bd059.css"
+    ]
+  },
+  "_jsx-runtime.84cb2727.js": {
+    "file": "assets/jsx-runtime.84cb2727.js"
+  },
+  "_style.ec858430.js": {
+    "file": "assets/style.ec858430.js",
+    "css": [
+      "assets/style.739c777f.css"
+    ]
+  },
+  "_menu.c90c5423.js": {
+    "file": "assets/menu.c90c5423.js",
+    "css": [
+      "assets/menu.7207416a.css"
+    ]
+  },
+  "_client.423fa260.js": {
+    "file": "assets/client.423fa260.js",
+    "imports": [
+      "_jsx-runtime.84cb2727.js"
+    ]
+  },
+  "input.css": {
+    "file": "assets/input.9c6bd059.css",
+    "src": "src/assets/css/components/input.module.css"
+  },
+  "src/components/Button.css": {
+    "file": "assets/Button.b22bb1d2.css",
+    "src": "src/assets/css/components/button.module.css"
+  },
+  "menu.css": {
+    "file": "assets/menu.7207416a.css",
+    "src": "src/assets/css/components/menu.module.css"
+  },
+  "src/components/RoundFrame.css": {
+    "file": "assets/RoundFrame.2d7acfd6.css",
+    "src": "src/assets/css/components/frame.module.css"
+  }
+}
